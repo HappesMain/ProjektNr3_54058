@@ -16,5 +16,17 @@ namespace ProjektNr3_54058
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 newForm = new Form2();
+            newForm.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ProjektNr3_54058 newForm = new ProjektNr3_54058();
+            newForm.Show();
+        }
     }
 }
